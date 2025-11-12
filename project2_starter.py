@@ -196,7 +196,7 @@ class Mage(Player):
         """
         Special mage ability - a powerful magical attack.
         """
-        damage = self.magic * 4 + 6
+        damage = self.magic * 1.5 + 5
         target.take_damage(damage)
         print(f"{self.name} channels a great flame at {target.name} for {damage} damage!")
 
